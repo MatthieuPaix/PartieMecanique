@@ -22,12 +22,4 @@ public class Pion {
         set { coordonnees = value; }
     }
 
-    public static void Main(string[] args)
-    {
-        Pion pion1 = new Pion(new int[] { 3, 2 });
-        Pion pion2 = new Pion(new int[] { 1, 0 });
-
-        Console.WriteLine($"Pion 1 - ID: {pion1.IdPion}, Coordonnees: [{string.Join(", ", pion1.Coordonnees)}]");
-        Console.WriteLine($"Pion 2 - ID: {pion2.IdPion}, Coordonnees: [{string.Join(", ", pion2.Coordonnees)}]");
-    }
 }

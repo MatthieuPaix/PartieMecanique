@@ -1,4 +1,4 @@
-public enum TypeMur
+public enum WallType
 {
     vertical,
     horizontal
@@ -6,14 +6,14 @@ public enum TypeMur
 
 public class Mur
 {
-    private TypeMur type;
+    private wallType type;
 
-    public Mur(TypeMur type)
+    public Wall(wallType type)
     {
-        this.Type = type;
+        this.type = type;
     }
 
-    public TypeMur Type
+    public wallType Type
     {
         get { return type; }
         set { type = value; }

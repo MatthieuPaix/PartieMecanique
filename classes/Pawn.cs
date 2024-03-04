@@ -1,13 +1,13 @@
 using System;
 
-public class Pion {
-    private static int dernierIdPion = 0;
-    private int idPion;
+public class Pawn {
+    private static int LastPawnId = 0;
+    private int pawnId;
     private int x;
     private int y;
-    public Pion(int[] _coordonnees)
+    public Pion(int[] _coordinates)
     {
-        coordonnees = _coordonnees;
+        coordinates = _coordinates;
         idPion = ++dernierIdPion;
     }
 
@@ -16,10 +16,10 @@ public class Pion {
         get { return idPion; }
     }
 
-    public int[] Coordonnees
+    public int[] coordinates
     {
-        get { return coordonnees; }
-        set { coordonnees = value; }
+        get { return coordinates; }
+        set { coordinates = value; }
     }
     public int x 
     {
@@ -32,7 +32,7 @@ public class Pion {
         set { y = value; }
     }
 
-    public void bouger(int newX, int newY) {
+    public void moove(int newX, int newY) {
         x = newX;
         y = newY;
     }

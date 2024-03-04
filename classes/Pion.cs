@@ -3,8 +3,8 @@ using System;
 public class Pion {
     private static int dernierIdPion = 0;
     private int idPion;
-    private int[] coordonnees;
-
+    private int x;
+    private int y;
     public Pion(int[] _coordonnees)
     {
         coordonnees = _coordonnees;
@@ -21,5 +21,21 @@ public class Pion {
         get { return coordonnees; }
         set { coordonnees = value; }
     }
+    public int x 
+    {
+        get { return x; }
+        set { x = value; }
+    }
+    public int y
+    {
+        get { return y; }
+        set { y = value; }
+    }
+
+    public void bouger(int newX, int newY) {
+        x = newX;
+        y = newY;
+    }
+
 
 }

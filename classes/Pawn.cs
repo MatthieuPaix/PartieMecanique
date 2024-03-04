@@ -1,25 +1,12 @@
 using System;
 
 public class Pawn {
-    private static int LastPawnId = 0;
-    private int pawnId;
     private int x;
     private int y;
-    public Pion(int[] _coordinates)
+    public Pion(int _x, int _y)
     {
-        coordinates = _coordinates;
-        idPion = ++dernierIdPion;
-    }
-
-    public int IdPion
-    {
-        get { return idPion; }
-    }
-
-    public int[] coordinates
-    {
-        get { return coordinates; }
-        set { coordinates = value; }
+        x = _x;
+        y = _y;
     }
     public int x 
     {
@@ -32,10 +19,9 @@ public class Pawn {
         set { y = value; }
     }
 
-    public void moove(int newX, int newY) {
+    public void move(int newX, int newY) {
         x = newX;
         y = newY;
     }
-
 
 }

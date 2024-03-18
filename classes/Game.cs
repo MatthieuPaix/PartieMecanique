@@ -13,5 +13,4 @@ public class Game
     public void canMove(int y, int x){
         
     }
-    
 }

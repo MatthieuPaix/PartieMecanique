@@ -1,8 +1,7 @@
 // placer mur(Case, direction) case = case haut à gauche
-public class Player
-{
-    protected Wall nbLeftWallsRemaining;
-    protected Wall nbRightWallsRemaining;
+public class Player{
+    protected Wall nbVerticalWallsRemaining;
+    protected Wall nbHorizonalWallsRemaining;
     protected Pawn pawn1;
     protected Pawn pawn2;
 
@@ -10,13 +9,13 @@ public class Player
     {
         
     }
-    
-
 
     public void movePawn(Pawn pawn, int y , int x){
         pawn.y = y
         pawn.x = y
     }
     
-    public void placeWall(int y, int x)
+    public void placeWall(int y, int x,bool vertical){
+
+    }
 }

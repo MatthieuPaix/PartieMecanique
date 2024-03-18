@@ -1,5 +1,4 @@
-// placer mur(Case, direction) case = case haut à gauche
-public class Player{
+using Blockadepublic class Player{
     protected Wall nbVerticalWallsRemaining;
     protected Wall nbHorizonalWallsRemaining;
     protected Pawn pawn1;
@@ -16,6 +15,7 @@ public class Player{
     }
     
     public void placeWall(int y, int x,bool vertical){
-
+        vertical && nbVerticalWallsRemaining ? Wall w = new Wall(WallType)
+        Console.WriteLine(w.type)
     }
 }

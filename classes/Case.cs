@@ -1,7 +1,6 @@
-impo
+// Import mur
 
 public class Case {
-
     private Wall topWall;
     private Wall leftWall;
     private Mur rightWall;

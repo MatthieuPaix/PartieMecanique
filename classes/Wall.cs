@@ -1,3 +1,4 @@
+using Blockade
 public enum WallType
 {
     vertical,

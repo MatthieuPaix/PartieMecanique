@@ -1,5 +1,4 @@
-// placer mur(Case, direction) case = case haut à gauche
-
+using Blockade
 public class Board
 {
     private Case[][] board;

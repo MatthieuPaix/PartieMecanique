@@ -1,14 +1,4 @@
-public enum MoveType
-{
-    top,
-    topRight,
-    right,
-    rightBottom,
-    bottom,
-    bottomLeft,
-    left,
-    leftTop
-}
+using System;
 
 public class Pawn {
 

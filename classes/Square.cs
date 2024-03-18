@@ -1,5 +1,4 @@
-// Import mur
-
+using Blockade
 public class Case {
     private Wall topWall;
     private Wall leftWall;

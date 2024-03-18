@@ -1,13 +1,13 @@
 // Import mur
 
-public class Square {
+public class Case {
     private Wall topWall;
     private Wall leftWall;
     private Mur rightWall;
     private Mur bottomWall;
-    private bool StartingSquare;
+    private bool StartingCase;
 
-    public Square(bool isBeginning){
+    public Case(bool isBeginning){
         this.beginning = isBeginning;
     }
 }
